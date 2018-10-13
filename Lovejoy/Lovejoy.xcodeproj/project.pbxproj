@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		08700F24770219A13E714511 /* Pods_Lovejoy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52587517D09E36CA5B53C900 /* Pods_Lovejoy.framework */; };
 		66705C9421723968005479B4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66705C9321723968005479B4 /* AppDelegate.swift */; };
 		66705C9621723968005479B4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66705C9521723968005479B4 /* ViewController.swift */; };
 		66705C9921723968005479B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66705C9721723968005479B4 /* Main.storyboard */; };
@@ -15,6 +16,9 @@
 		66705CA92172396B005479B4 /* LovejoyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66705CA82172396B005479B4 /* LovejoyTests.swift */; };
 		66705CB42172396B005479B4 /* LovejoyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66705CB32172396B005479B4 /* LovejoyUITests.swift */; };
 		66705CC221723FD5005479B4 /* CheckInModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66705CC121723FD5005479B4 /* CheckInModel.swift */; };
+		66CD403421724BE2006D5A43 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 66CD403321724BE1006D5A43 /* Podfile */; };
+		DAA17119875D6881004EFD69 /* Pods_LovejoyUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 104DB8D636F595A0AEFB1D2C /* Pods_LovejoyUITests.framework */; };
+		DB1A083A1F3A3796A8C96093 /* Pods_LovejoyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D45E80C665A3A0BC4BDEA60C /* Pods_LovejoyTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0BA7F7A341B97A71D05F4479 /* Pods-LovejoyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LovejoyTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LovejoyTests/Pods-LovejoyTests.release.xcconfig"; sourceTree = "<group>"; };
+		104DB8D636F595A0AEFB1D2C /* Pods_LovejoyUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LovejoyUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F8B32C4C662AA8762BB1C21 /* Pods-Lovejoy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lovejoy.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Lovejoy/Pods-Lovejoy.debug.xcconfig"; sourceTree = "<group>"; };
+		48CD614CAB7C91F18D48FAAD /* Pods-LovejoyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LovejoyUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LovejoyUITests/Pods-LovejoyUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		52587517D09E36CA5B53C900 /* Pods_Lovejoy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Lovejoy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		66705C9021723968005479B4 /* Lovejoy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lovejoy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		66705C9321723968005479B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		66705C9521723968005479B4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +58,11 @@
 		66705CB32172396B005479B4 /* LovejoyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LovejoyUITests.swift; sourceTree = "<group>"; };
 		66705CB52172396B005479B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		66705CC121723FD5005479B4 /* CheckInModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckInModel.swift; sourceTree = "<group>"; };
+		66CD403321724BE1006D5A43 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		874FE14B1DE30B723BF3F9B8 /* Pods-Lovejoy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lovejoy.release.xcconfig"; path = "Pods/Target Support Files/Pods-Lovejoy/Pods-Lovejoy.release.xcconfig"; sourceTree = "<group>"; };
+		AE9CF492A6E5C1F392CAE577 /* Pods-LovejoyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LovejoyTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LovejoyTests/Pods-LovejoyTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D45E80C665A3A0BC4BDEA60C /* Pods_LovejoyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LovejoyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4EBBA2D1C9C08A465355632 /* Pods-LovejoyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LovejoyUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LovejoyUITests/Pods-LovejoyUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				08700F24770219A13E714511 /* Pods_Lovejoy.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB1A083A1F3A3796A8C96093 /* Pods_LovejoyTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DAA17119875D6881004EFD69 /* Pods_LovejoyUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +100,9 @@
 				66705CA72172396B005479B4 /* LovejoyTests */,
 				66705CB22172396B005479B4 /* LovejoyUITests */,
 				66705C9121723968005479B4 /* Products */,
+				66CD403321724BE1006D5A43 /* Podfile */,
+				A121B0789DD691CE77241D05 /* Pods */,
+				9838CD94F9B8A7AA1E416FF9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -128,6 +148,29 @@
 			path = LovejoyUITests;
 			sourceTree = "<group>";
 		};
+		9838CD94F9B8A7AA1E416FF9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				52587517D09E36CA5B53C900 /* Pods_Lovejoy.framework */,
+				D45E80C665A3A0BC4BDEA60C /* Pods_LovejoyTests.framework */,
+				104DB8D636F595A0AEFB1D2C /* Pods_LovejoyUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A121B0789DD691CE77241D05 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3F8B32C4C662AA8762BB1C21 /* Pods-Lovejoy.debug.xcconfig */,
+				874FE14B1DE30B723BF3F9B8 /* Pods-Lovejoy.release.xcconfig */,
+				AE9CF492A6E5C1F392CAE577 /* Pods-LovejoyTests.debug.xcconfig */,
+				0BA7F7A341B97A71D05F4479 /* Pods-LovejoyTests.release.xcconfig */,
+				48CD614CAB7C91F18D48FAAD /* Pods-LovejoyUITests.debug.xcconfig */,
+				F4EBBA2D1C9C08A465355632 /* Pods-LovejoyUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +178,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 66705CB82172396B005479B4 /* Build configuration list for PBXNativeTarget "Lovejoy" */;
 			buildPhases = (
+				14FD585F056C6915E2474023 /* [CP] Check Pods Manifest.lock */,
 				66705C8C21723968005479B4 /* Sources */,
 				66705C8D21723968005479B4 /* Frameworks */,
 				66705C8E21723968005479B4 /* Resources */,
+				78D8F5871C4724ACBF4F077C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +197,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 66705CBB2172396B005479B4 /* Build configuration list for PBXNativeTarget "LovejoyTests" */;
 			buildPhases = (
+				3F0568FBE4BA1C1D9FCE7072 /* [CP] Check Pods Manifest.lock */,
 				66705CA02172396B005479B4 /* Sources */,
 				66705CA12172396B005479B4 /* Frameworks */,
 				66705CA22172396B005479B4 /* Resources */,
@@ -170,6 +216,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 66705CBE2172396B005479B4 /* Build configuration list for PBXNativeTarget "LovejoyUITests" */;
 			buildPhases = (
+				C5BEDEFC168C99B78129E44D /* [CP] Check Pods Manifest.lock */,
 				66705CAB2172396B005479B4 /* Sources */,
 				66705CAC2172396B005479B4 /* Frameworks */,
 				66705CAD2172396B005479B4 /* Resources */,
@@ -234,6 +281,7 @@
 			files = (
 				66705C9E2172396B005479B4 /* LaunchScreen.storyboard in Resources */,
 				66705C9B2172396B005479B4 /* Assets.xcassets in Resources */,
+				66CD403421724BE2006D5A43 /* Podfile in Resources */,
 				66705C9921723968005479B4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -253,6 +301,83 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		14FD585F056C6915E2474023 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Lovejoy-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3F0568FBE4BA1C1D9FCE7072 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LovejoyTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		78D8F5871C4724ACBF4F077C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Lovejoy/Pods-Lovejoy-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Lovejoy/Pods-Lovejoy-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C5BEDEFC168C99B78129E44D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LovejoyUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		66705C8C21723968005479B4 /* Sources */ = {
@@ -432,9 +557,11 @@
 		};
 		66705CB92172396B005479B4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F8B32C4C662AA8762BB1C21 /* Pods-Lovejoy.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GN9SD8QRK2;
 				INFOPLIST_FILE = Lovejoy/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -449,9 +576,11 @@
 		};
 		66705CBA2172396B005479B4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 874FE14B1DE30B723BF3F9B8 /* Pods-Lovejoy.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GN9SD8QRK2;
 				INFOPLIST_FILE = Lovejoy/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -466,6 +595,7 @@
 		};
 		66705CBC2172396B005479B4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE9CF492A6E5C1F392CAE577 /* Pods-LovejoyTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -486,6 +616,7 @@
 		};
 		66705CBD2172396B005479B4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0BA7F7A341B97A71D05F4479 /* Pods-LovejoyTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -506,6 +637,7 @@
 		};
 		66705CBF2172396B005479B4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48CD614CAB7C91F18D48FAAD /* Pods-LovejoyUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -525,6 +657,7 @@
 		};
 		66705CC02172396B005479B4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4EBBA2D1C9C08A465355632 /* Pods-LovejoyUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

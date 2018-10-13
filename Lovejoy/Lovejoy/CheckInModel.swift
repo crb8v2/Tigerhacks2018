@@ -7,10 +7,12 @@
 //
 
 import Foundation
+import SwiftyJSON
+import Alamofire
 
  class CheckInModel{
     init() {
-        <#statements#>
+        let reset_endpoint: String = "https://"
     }
     
     
