@@ -10,101 +10,39 @@
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   </head>
 
-  <header id= "header" class="bg-success" style="height:100px;">
-    <img src="img/logo.jpg" alt="CBK_Productions Logo" style="width:100px;height:90px; float: left;">
-    <title id="title">CBK_Productions</title>
-    <br><h1 id="CBK">CBK_Productions</h1>
+  <header id="header" class="bg-success" style="height:100px;">
+    <img src="img/thebeans.jpg" alt="CBK_Productions Logo" style="width:100px;height:90px; float: left;">
+
+    <title id="title">Lovejoy</title>
+    <br><h1 id="CBK">Lovejoy</h1>
   </header>
 
-  <body>
-  <div id="formmasterdiv" class="container-fluid">
-    <div id="navigation" class="col-xs-12 col-sm-5 col-md-2 col-lg-2">
-      <h3 id="navtag">Navigation</h3>
-      <a class="navbuttons" href="home.html">HOME</a><br>
-      <a class="navbuttons" href="animations.html">ANIMATIONS</a><br>
-      <a class="navbuttons" href="registration.php">REGISTRATION</a><br>
+  <body id="homebody">
+
+    <div id="navigation" class="col-xs-2 col-sm-1 col-md-1 col-lg-1"></div>
+
+    <div id="homediv" class="col-xs-12 col-sm-9 col-md-9 col-lg-9; hometext">
+      <h1 id="home">ADD CONTENT:</h1>
+
+
+       <!-- goes to bang.php with POST -->
+      <form id="formleft" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" method="POST">
+        <div id="formdivleft" class="col-xs-12 col-sm-8 col-md-4 col-lg-4">
+
+
+        </div>
+
+        </div> <br>
+
+      </form>
     </div>
 
-    <div class="col-xs-12 col-sm-7 col-md-10 col-lg-10">
-
-      <?php
-      include 'sql/pullbackData.php';
-      // session_start();
-      // $_POST = $_SESSION;
-      ?>
-      <!-- echo $_POST["username"]; -->
-
-
-
-      <div id="confirmation">
-        <h1 id="confirm">CONFRMATION</h1>
-      </div>
-      <div class="confirmtext">
-        <br>
-        <p>Username: <?php echo $username; ?> </p>
-        <p>Password: <?php echo $pw;  ?> </p>
-        <p>First Name:  <?php echo $fName; ?> </p>
-        <p>Last Name:  <?php echo $lName; ?> </p>
-        <p>Phone number:  <?php echo $pNum; ?> </p>
-        <p>Email:  <?php echo $email; ?> </p>
-        <p>Address Line 1:  <?php echo $add1; ?> </p>
-        <p>Address Line 2:  <?php echo $add2; ?> </p>
-        <p>City:  <?php echo $city; ?> </p>
-        <p>State:  <?php echo $state; ?> </p>
-        <p>Zip Code:  <?php echo $zip; ?> </p>
-        <p>Date of Birth:  <?php echo $dob; ?> </p>
-        <p>Gender:  <?php echo $gender; ?> </p>
-        <p>Marital Status:  <?php echo $mStatus; ?> </p>
-      </div>
-
-      <!--
-        php form validation
-       <div class="confirmtext">
-        <br>
-        <p>Username: <?php echo $username; ?> </p>
-        <p>Passwords: <?php echo $_POST["password"];  ?> </p>
-        <p>First Name:  <?php echo $_POST["firstname"]; ?> </p>
-        <p>Last Name:  <?php echo $_POST["lastname"]; ?> </p>
-        <p>Username:  <?php echo $_POST["username"]; ?> </p>
-        <p>Phone number:  <?php echo $_POST["phonenumber"]; ?> </p>
-        <p>Email:  <?php echo $_POST["email"]; ?> </p>
-        <p>Address Line 2:  <?php echo $_POST["addresslineone"]; ?> </p>
-        <p>Address Line 2:  <?php echo $_POST["addresslinetwo"]; ?> </p>
-        <p>City:  <?php echo $_POST["city"]; ?> </p>
-        <p>State:  <?php echo $_POST["state"]; ?> </p>
-        <p>Zip Code:  <?php echo $_POST["zipcode"]; ?> </p>
-        <p>Date of Birth:  <?php echo $_POST["dob"]; ?> </p>
-        <p>Gender:  <?php echo $_POST["gender"]; ?> </p>
-        <p>Marrital Status:  <?php echo $_POST["maritalstatus"]; ?> </p>
-      </div> -->
-
-  </div>
-</div>
+    <div id="navigation" class="col-xs-2 col-sm-2 col-md-2 col-lg-2"></div>
 
   </body>
+  <footer id="animationfooter">
+    <div id="footer" class="row, column col-xs-12 col-sm-12 col-md-12 col-lg-12">
 
-  <footer id="conffooter">
-    <div id="footer" class="row">
-      <div id="adafruit" class="column col-xs-12 col-sm-4 col-md-4 col-lg-4">
-        <a href="https://www.adafruit.com/?gclid=EAIaIQobChMIzerS6ru_2QIVRJ7ACh32CARSEAAYASAAEgIOePD_BwE"
-         target="_blank">
-          <img src="img/img2.jpg" alt="Link to Adafruit" style="width:185px;height:75px;">
-        </a>
-      </div>
-
-      <div id="particle" class="column col-xs-12 col-sm-4 col-md-4 col-lg-4">
-        <a href="https://www.particle.io/"
-        target="_blank">
-          <img src="img/particle.jpg" alt="Link to Particle" style="width:220px;height:75px;">
-        </a>
-      </div>
-
-      <div id="raspi" class="column col-xs-12 col-sm-4 col-md-4 col-lg-4">
-        <a href="https://www.raspberrypi.org/"
-        target="_blank">
-          <img src="img/img5.jpg" alt="Link to Raspberry Pi" style="width:200px;height:75px;">
-        </a>
-      </div>
     </div>
   </footer>
 

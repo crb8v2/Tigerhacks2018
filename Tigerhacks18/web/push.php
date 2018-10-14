@@ -40,17 +40,16 @@
            include 'sql/sqlConfirmation.php';
           ?>
 
-          <!--removed required from input for php project -->
           <span style="color:#011f4b">HEADLINE:</span><br>
           <input class="box" type="text" name="username"
-            onkeyup="ValUsername(this)" value="<?php echo $username; ?>"> <!-- required> --><br>
+            onkeyup="ValUsername(this)" value="<?php echo $topic; ?>"> <!-- required> --><br>
 
           <br>
           <br>
 
           <span style="color:#011f4b">CONTENT:</span><br>
           <input class="box" type="text" name="password"
-            onkeyup="ValUsername(this)" value="<?php echo $pw; ?>"> <!-- required> --><br>
+            onkeyup="ValUsername(this)" value="<?php echo $body; ?>"> <!-- required> --><br>
 
           <br>
           <br>
@@ -60,13 +59,8 @@
           <br>
 
         </div>
-
-
-
-
-
-        </div> <br>
-
+        </div>
+        <br>
       </form>
     </div>
 
@@ -75,8 +69,6 @@
   </body>
   <footer id="animationfooter">
     <div id="footer" class="row, column col-xs-12 col-sm-12 col-md-12 col-lg-12">
-
     </div>
   </footer>
-
 </html>

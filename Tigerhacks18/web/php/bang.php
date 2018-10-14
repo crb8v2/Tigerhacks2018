@@ -23,10 +23,9 @@
       return $data;
     }
 
-
-    $username = test_input($_POST["username"]);
-    $pw = test_input($_POST["password"]);
-    $city = 1;
+    $user_id = 1;
+    $topic = test_input($_POST["topic"]);
+    $body = test_input($_POST["body"]);
 
 
      if($theOne == TRUE){

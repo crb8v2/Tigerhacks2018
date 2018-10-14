@@ -2,50 +2,35 @@
 <?php
 
 session_start();
-$servername = "localhost";
-$dbname = "project";
+$servername = "67.205.133.104";
+$dbname = "tigerhacks";
 $dbusername = "root";
-$dbpassword = "";
+$dbpassword = "sqlpass";
 
 
 
 	if ($theOne) {
 		try {
-			$conn = new PDO("mysql:host=$servername;dbname=$dbname", $dbusername, $dbpassword);
-			// set the PDO error mode to exception
+
+			$conn = new PDO("mysql:host=$servername;port=3306;dbname=$dbname", $dbusername, $dbpassword);
+
+			// if (!$conn) {
+    	// 	die("Connection failed: " . mysqli_connect_error());
+			// }
+
 			$conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
-			$sql = $conn->prepare("INSERT INTO registration (userName, password, firstName,
-        lastName, address1, address2, city, state, zipCode, phone, email, gender,
-        maritalStatus, dateOfBirth)
-			VALUES (:userName, :password, :firstName, :lastName, :address1, :address2,
-        :city, :state, :zipCode, :phone, :email, :gender, :maritalStatus, :dateOfBirth)");
 
-			$sql->bindParam(':userName', $username);
-			$sql->bindParam(':password', $pw);
-			$sql->bindParam(':firstName', $fName);
-			$sql->bindParam(':lastName', $lName);
-			$sql->bindParam(':address1', $add1);
-      $sql->bindParam(':address2', $add2);
-      $sql->bindParam(':city', $city);
-      $sql->bindParam(':state', $state);
-      $sql->bindParam(':zipCode', $zip);
-      $sql->bindParam(':phone', $pNum);
-      $sql->bindParam(':email', $email);
-      $sql->bindParam(':gender', $gender);
-      $sql->bindParam(':maritalStatus', $mStatus);
-      $sql->bindParam(':dateOfBirth', $dob);
+			$sql = "INSERT INTO story (user_id, topic, body)
+				VALUES ($user_id, $topic, $body)";
 
-			$sql->execute();
+				var_dump(topic);
 
-			$last_id = $conn->lastInsertId();
-			$_SESSION["last_id"] = "$last_id";
-
-			// header("Location: registration.php");
-		}
-		catch(PDOException $e) {
-			echo "Connection failed: " . $e->getMessage();
-		}
-		$conn = null;
+				$conn-> exec($sql);
+			}
+			catch(PDOException $e) {
+				echo "Connection failed: " . $e->getMessage();
+			}
+			$conn = null;
 	}
 ?>
