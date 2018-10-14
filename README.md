@@ -1,2 +1,2 @@
-# tigerhacks2018apis
-dotnet core apis to go along with project
+# tigerhacks
+team entry for deadman-switch app for journalists
