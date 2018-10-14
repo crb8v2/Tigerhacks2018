@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en_US">
+
+  <head>
+    <meta charset="UTF-8"/>
+    <link rel="stylesheet" href="css/styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  </head>
+
+  <header id="header" class="bg-success" style="height:100px;">
+    <img src="img/thebeans.jpg" alt="CBK_Productions Logo" style="width:100px;height:90px; float: left;">
+
+    <title id="title">LOVEJOY</title>
+    <br><h1 id="CBK">LOVEJOY</h1>
+  </header>
+
+  <body id="homebody">
+
+    <div id="navigation" class="col-xs-2 col-sm-2 col-md-2 col-lg-2"></div>
+
+    <div id="homediv" class="col-xs-12 col-sm-7 col-md-7 col-lg-7; hometext">
+      <h2 id="home">LOGIN</h1>
+
+      <span style="color:#011f4b">Username:</span><br>
+      <input class="box" type="text" name="username"
+
+      <span id="usernameError" class="error"> <?php echo $usernameError; ?> </span>
+      <br>
+
+      <span style="color:#011f4b">Password:</span><br>
+      <input class="box" id="password" type="password" name="password">
+
+      <span id="passwordError" class="error"> <?php echo $pwError; ?> </span>
+      <br>
+      <br>
+      <br>
+
+      <a class="button" href="push.php">HOME</a><br>
+
+    </div>
+
+    <div id="navigation2" class="col-xs-2 col-sm-3 col-md-3 col-lg-3"></div>
+
+  </body>
+  <footer id="animationfooter">
+    <div id="footer" class="row, column col-xs-12 col-sm-12 col-md-12 col-lg-12">
+
+    </div>
+  </footer>
+
+</html>
